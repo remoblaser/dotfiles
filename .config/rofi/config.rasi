@@ -1,0 +1,12 @@
+configuration {
+    font: "Comfortaa 14";
+    line-padding: 2;
+    modi: "combi";
+    combi-modi: "drun,run";
+    show-icons: true;
+    drun-icon-theme: "Papirus-Adapta-Nokto";
+    color-enabled: true;
+    hide-scrollbar: true;
+    separator-style: "solid";
+    theme: "~/.config/rofi/theme.rasi";
+}
