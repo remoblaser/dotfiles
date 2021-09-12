@@ -1,5 +1,7 @@
 # Personal arch dotfiles
 
+![Screenshot](https://i.imgur.com/0zoh1gU.png "Screenshot")
+
 Arch dotfiles based on i3-gaps. Feel free to use. Huge props to [oddlyspaced](https://github.com/oddlyspaced) for the groundwork.
 
 ## Dependencies
