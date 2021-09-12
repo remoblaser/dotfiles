@@ -5,7 +5,7 @@
 ## INFO
 
 # user is already defined
-host="$(hostname)"
+host="$(hostnamectl hostname)"
 os='Arch Linux'
 kernel="$(uname -sr)"
 uptime="$(uptime -p | sed 's/up //')"
@@ -31,6 +31,9 @@ elif [ -f "${HOME}/.xinitrc" ]; then
 	uitype='WM'
 elif [ -f "${HOME}/.xsession" ]; then
 	ui="$(tail -n 1 "${HOME}/.xsession" | cut -d ' ' -f 2)"
+	uitype='WM'
+elif [ -n "xprop -root| grep i3" ]; then
+	ui='i3'
 	uitype='WM'
 else
 	ui='unknown'

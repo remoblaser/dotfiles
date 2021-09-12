@@ -1,3 +1,8 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
+abbr status 'git status'
+abbr commit 'git commit -a'
+abbr add 'git add'
+abbr diff 'git diff'
+abbr push 'git push'
+
+export EDITOR='nano'
+bash ~/.scripts/ufetch
